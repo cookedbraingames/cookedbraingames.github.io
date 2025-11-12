@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio - Site under development</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-3xl p-6 min-h-screen flex flex-col">
+        
+        <!-- Header -->
+        <header class="py-12">
+            <div class="flex flex-col sm:flex-row items-center sm:items-start">
+                <!-- You can uncomment this and add a profile picture URL -->
+                <!-- <img class="w-24 h-24 rounded-full mb-4 sm:mb-0 sm:mr-6" src="https://placehold.co/100x100/e2e8f0/64748b?text=You" alt="Profile Picture"> -->
+                <div class="text-center sm:text-left">
+                    <h1 class="text-4xl font-bold text-gray-900">Your Name</h1>
+                    <p class="text-xl text-blue-600 mt-1">App Developer</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow">
+            
+            <!-- About Me -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 border-b border-gray-300 pb-2 mb-4">About Me</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Hello! I'm an app developer focused on creating clean, user-friendly mobile experiences. 
+                    Welcome to my developer page. Here you can find my apps and ways to get in touch.
+                    (Edit this text to tell people about yourself!)
+                </p>
+            </section>
+
+            <!-- My Apps -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 border-b border-gray-300 pb-2 mb-4">My Apps</h2>
+                
+                <!-- App 1 Placeholder -->
+                <div class="bg-white p-6 rounded-lg shadow-md mb-6 transition hover:shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-700">Math Check</h3>
+                    <p class="text-gray-600 mt-2">
+                        A simple true or false math game with online leaderboard. 
+                    </p>
+                    <div class="mt-4">
+                        <a href="#" class="inline-block bg-gray-800 text-white font-medium py-2 px-4 rounded-lg hover:bg-gray-700">
+                            View on App Store
+                        </a>
+                        <a href="#" class="inline-block bg-gray-800 text-white font-medium py-2 px-4 rounded-lg hover:bg-gray-700 ml-2">
+                            View on Google Play
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 2 Placeholder -->
+                <div class="bg-white p-6 rounded-lg shadow-md mb-6 transition hover:shadow-lg">
+                    <h3 class="text-xl font-bold text-blue-700">Another Great App</h3>
+                    <p class="text-gray-600 mt-2">
+                        This is a description for your second app. Explain its main features and benefits.
+                    </p>
+                    <div class="mt-4">
+                        <!-- Add links to your apps -->
+                        <a href="#" class="inline-block bg-gray-800 text-white font-medium py-2 px-4 rounded-lg hover:bg-gray-700">
+                            View on Google Play
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Privacy Policy Link -->
+            <section class="mb-10">
+                <h2 class="text-2xl font-bold text-gray-900 border-b border-gray-300 pb-2 mb-4">App Policies</h2>
+                <p class="text-gray-700">
+                    You can find the privacy policies for my applications here.
+                </p>
+                <ul class="list-disc list-inside mt-2">
+                    <li><a href="#" class="text-blue-600 hover:underline">Privacy Policy for My Awesome App</a></li>
+                    <li><a href="#" class="text-blue-600 hover:underline">Privacy Policy for Another Great App</a></li>
+                </ul>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center py-8 text-gray-500 border-t border-gray-200 mt-10">
+            <p>&copy; 2025 Adrian Csemez. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="#" class="text-blue-600 hover:underline">GitHub</a>
+                <a href="#" class="text-blue-600 hover:underline">LinkedIn</a>
+                <a href="mailto:youremail@example.com" class="text-blue-600 hover:underline">Email</a>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
